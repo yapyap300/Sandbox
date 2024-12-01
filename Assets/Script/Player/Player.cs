@@ -56,13 +56,10 @@ public class Player : MonoBehaviour
     {
         sprint = value;
     }
-    public void PlayRoll(Vector2 target)
+    public void PlayRoll()
     {
-        Debug.Log(target.x + " " + target.y);
         isRoll = true;
-        var dir = target - rigid.position;
-        spriter.flipX = dir.x < 0;
-        rigid.AddForce(1.5f * myStatus.mSpeed * dir.normalized, ForceMode2D.Impulse);
+        rigid.AddForce(1.5f * myStatus.mSpeed * inputVec, ForceMode2D.Impulse);
     }
     public void StopRoll()
     {

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 99902cfe8c3cf6b4784f2eb126d31d3c
+guid: 39c3f41949e356547a92818098a1e7b6
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 64
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: base_idle_strip9_0
+      name: base_roll_strip10_0
       rect:
         serializedVersion: 2
         x: 43
@@ -124,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b8e56fdf79e750749aa13d8225a7ed21
-      internalID: 684778639
+      spriteID: fafdd68a2f8dcbf41a2ddc1d34464c7a
+      internalID: 1923392527
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: base_idle_strip9_1
+      name: base_roll_strip10_1
       rect:
         serializedVersion: 2
-        x: 139
+        x: 141
         y: 25
         width: 11
-        height: 16
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,40 +145,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3f7fd6ce635fffc41955c3501d0a2d3b
-      internalID: 1908974493
+      spriteID: e7f2a208e43360b49a7180de854d2d94
+      internalID: 1190372853
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: base_idle_strip9_2
+      name: base_roll_strip10_2
       rect:
         serializedVersion: 2
-        x: 235
+        x: 233
         y: 25
-        width: 11
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1ebfa60a14366f34b89d2827b9af124e
-      internalID: 253882064
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: base_idle_strip9_3
-      rect:
-        serializedVersion: 2
-        x: 331
-        y: 25
-        width: 12
+        width: 16
         height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -187,19 +166,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b20a651a30cdada4fac4dfe041899204
-      internalID: 621113699
+      spriteID: 120e8e41f9f71bc40992990f830a4bc0
+      internalID: -819072022
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: base_idle_strip9_4
+      name: base_roll_strip10_3
       rect:
         serializedVersion: 2
-        x: 427
+        x: 329
         y: 25
-        width: 12
+        width: 16
         height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -208,19 +187,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 362520bc84cf51946af69979fccd483d
-      internalID: 430473774
+      spriteID: 64dae56f8dfbd9c48acd76be25483275
+      internalID: 865769516
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: base_idle_strip9_5
+      name: base_roll_strip10_4
       rect:
         serializedVersion: 2
-        x: 523
+        x: 425
         y: 25
-        width: 11
+        width: 16
         height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -229,20 +208,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e5fef97671cace449a0221480cc8e34e
-      internalID: 1153224676
+      spriteID: 8e68f8fcb220a10439d2084249dca45f
+      internalID: -1457095152
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: base_idle_strip9_6
+      name: base_roll_strip10_5
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 25
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b235e62e540da3547bce9a03f15553f5
+      internalID: 291221454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_roll_strip10_6
       rect:
         serializedVersion: 2
         x: 619
         y: 25
-        width: 11
-        height: 15
+        width: 12
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -250,19 +250,40 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f29d1ac5f0bf10c488b8a715f050f685
-      internalID: 1048106731
+      spriteID: d5cede9ef44b2a84f893de105ffe581e
+      internalID: -1894214200
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: base_idle_strip9_7
+      name: base_roll_strip10_7
       rect:
         serializedVersion: 2
         x: 715
         y: 25
-        width: 11
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f6dc3f58e5e9944bae3e268feee6969
+      internalID: 559163513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base_roll_strip10_8
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 25
+        width: 12
         height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -271,17 +292,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1dca5f29ae75af14e87aea2e5f5a7c03
-      internalID: -471854412
+      spriteID: 181c69ada4888b94c9072c6d4e7e540b
+      internalID: 2123897791
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: base_idle_strip9_8
+      name: base_roll_strip10_9
       rect:
         serializedVersion: 2
-        x: 811
+        x: 907
         y: 25
         width: 11
         height: 16
@@ -292,8 +313,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c9dc692d4e8ce4e4ba22b51af1b8fed8
-      internalID: -966755976
+      spriteID: 26b8429667d067346a1a0fb0be935745
+      internalID: -1286304615
       vertices: []
       indices: 
       edges: []
@@ -309,15 +330,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      base_idle_strip9_0: 684778639
-      base_idle_strip9_1: 1908974493
-      base_idle_strip9_2: 253882064
-      base_idle_strip9_3: 621113699
-      base_idle_strip9_4: 430473774
-      base_idle_strip9_5: 1153224676
-      base_idle_strip9_6: 1048106731
-      base_idle_strip9_7: -471854412
-      base_idle_strip9_8: -966755976
+      base_roll_strip10_0: 1923392527
+      base_roll_strip10_1: 1190372853
+      base_roll_strip10_2: -819072022
+      base_roll_strip10_3: 865769516
+      base_roll_strip10_4: -1457095152
+      base_roll_strip10_5: 291221454
+      base_roll_strip10_6: -1894214200
+      base_roll_strip10_7: 559163513
+      base_roll_strip10_8: 2123897791
+      base_roll_strip10_9: -1286304615
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

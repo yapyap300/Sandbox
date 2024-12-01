@@ -57,6 +57,7 @@ public class StaminaController : MonoBehaviour
     }
     void OnSprintOut()
     {
+        if (!isSprint) return; 
         StopCoroutine(Sprinting);
         player.SetSprint(0);
         isSprint = false;
@@ -64,12 +65,11 @@ public class StaminaController : MonoBehaviour
     }
     void OnRoll()
     {
-        if (!player.isRoll && currentStamina >= rollCost)
+        if (!player.isRoll && player.isMove && currentStamina >= rollCost)
         {
-            Vector2 target = Camera.main.ScreenToWorldPoint(Mouse.current.position.ReadValue());
             currentStamina -= rollCost;
             anim.SetTrigger("Roll");
-            player.PlayRoll(target);
+            player.PlayRoll();
             UpdateStamina();
         }
     }
@@ -82,6 +82,7 @@ public class StaminaController : MonoBehaviour
             if(currentStamina <= 0)
             {
                 player.SetSprint(0);
+                isSprint = false;
                 hasRegen = false;
                 anim.SetBool("Sprint", false);
                 break;

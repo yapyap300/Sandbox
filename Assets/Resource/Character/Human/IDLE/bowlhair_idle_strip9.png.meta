@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 5f9dd2938505c3d419b7df240c351ab2
+guid: f2893d271ec11084ca499a3cdade9a77
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 64
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: shorthair_idle_strip9_0
+      name: bowlhair_idle_strip9_0
       rect:
         serializedVersion: 2
-        x: 43
-        y: 33
-        width: 10
-        height: 8
+        x: 42
+        y: 30
+        width: 13
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b93eede56980a9143ad7126a3aa2fcb3
-      internalID: -2114082883
+      spriteID: 051bf26c604f26641a139ffc2e404382
+      internalID: 871915217
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shorthair_idle_strip9_1
+      name: bowlhair_idle_strip9_1
       rect:
         serializedVersion: 2
-        x: 139
-        y: 33
-        width: 10
-        height: 8
+        x: 138
+        y: 30
+        width: 13
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,20 +145,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 863b2d2390e87f84783ecccfbb9ea03c
-      internalID: -1821321607
+      spriteID: d23cf82e8e6031c488dab63d370cc251
+      internalID: 1320277906
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shorthair_idle_strip9_2
+      name: bowlhair_idle_strip9_2
       rect:
         serializedVersion: 2
-        x: 235
-        y: 33
-        width: 10
-        height: 8
+        x: 234
+        y: 30
+        width: 13
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,20 +166,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 447fd002706e399468bf61c9dd21f1c7
-      internalID: -1521193536
+      spriteID: 5c5ed731a13ae8d4fb51a0b5f3153db0
+      internalID: 992666207
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shorthair_idle_strip9_3
+      name: bowlhair_idle_strip9_3
       rect:
         serializedVersion: 2
-        x: 331
-        y: 32
-        width: 10
-        height: 8
+        x: 330
+        y: 29
+        width: 13
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,20 +187,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eae095f2524769d4fa8c2977784601f1
-      internalID: 798111
+      spriteID: bd569a0cc46dc3949a66fe5b03271933
+      internalID: -564739530
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shorthair_idle_strip9_4
+      name: bowlhair_idle_strip9_4
       rect:
         serializedVersion: 2
-        x: 427
-        y: 32
-        width: 10
-        height: 8
+        x: 426
+        y: 29
+        width: 13
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,20 +208,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3c4e6fd509c787c4aa4c22e29a4ee560
-      internalID: -378994172
+      spriteID: 6d178cf011310334e8aaf41233fda629
+      internalID: -1360755814
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shorthair_idle_strip9_5
+      name: bowlhair_idle_strip9_5
       rect:
         serializedVersion: 2
-        x: 523
-        y: 32
-        width: 10
-        height: 8
+        x: 522
+        y: 29
+        width: 13
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -229,20 +229,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c8ee174ee6a7f864a87ddc9f9da44fa6
-      internalID: 1901317017
+      spriteID: 1c6212fae294414488ad6ee5b2078a7d
+      internalID: 2011242088
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shorthair_idle_strip9_6
+      name: bowlhair_idle_strip9_6
       rect:
         serializedVersion: 2
-        x: 619
-        y: 32
-        width: 10
-        height: 8
+        x: 618
+        y: 28
+        width: 13
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -250,20 +250,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 95cf167e01c5d264186b9e002fd9317f
-      internalID: 1928036642
+      spriteID: bb57d4a8382f1d94ba32a1e2883b83ca
+      internalID: 1813069491
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shorthair_idle_strip9_7
+      name: bowlhair_idle_strip9_7
       rect:
         serializedVersion: 2
-        x: 715
-        y: 32
-        width: 10
-        height: 8
+        x: 714
+        y: 28
+        width: 13
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -271,20 +271,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 55784327ddfc6f743b1aef019a92f3dc
-      internalID: 692950858
+      spriteID: f4c94f6de575928438024c40d9a45b89
+      internalID: 601094767
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shorthair_idle_strip9_8
+      name: bowlhair_idle_strip9_8
       rect:
         serializedVersion: 2
-        x: 811
-        y: 33
-        width: 10
-        height: 8
+        x: 810
+        y: 30
+        width: 13
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -292,8 +292,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b5af530011e1384892d2b312078252a
-      internalID: 1972994917
+      spriteID: 7275f73e33a0a5141b7efcc3ef938209
+      internalID: 2126954555
       vertices: []
       indices: 
       edges: []
@@ -309,15 +309,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      shorthair_idle_strip9_0: -2114082883
-      shorthair_idle_strip9_1: -1821321607
-      shorthair_idle_strip9_2: -1521193536
-      shorthair_idle_strip9_3: 798111
-      shorthair_idle_strip9_4: -378994172
-      shorthair_idle_strip9_5: 1901317017
-      shorthair_idle_strip9_6: 1928036642
-      shorthair_idle_strip9_7: 692950858
-      shorthair_idle_strip9_8: 1972994917
+      bowlhair_idle_strip9_0: 871915217
+      bowlhair_idle_strip9_1: 1320277906
+      bowlhair_idle_strip9_2: 992666207
+      bowlhair_idle_strip9_3: -564739530
+      bowlhair_idle_strip9_4: -1360755814
+      bowlhair_idle_strip9_5: 2011242088
+      bowlhair_idle_strip9_6: 1813069491
+      bowlhair_idle_strip9_7: 601094767
+      bowlhair_idle_strip9_8: 2126954555
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

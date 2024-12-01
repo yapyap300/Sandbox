@@ -423,7 +423,7 @@ MonoBehaviour:
   m_Follow: {fileID: 2060862034}
   m_Lens:
     FieldOfView: 34
-    OrthographicSize: 1.5
+    OrthographicSize: 6
     NearClipPlane: 0.3
     FarClipPlane: 1000
     Dutch: 0
@@ -575,7 +575,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 1.5
+  orthographic size: 6
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1264,6 +1264,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isRoll: 0
+  isMove: 0
 --- !u!250 &2060862036
 PointEffector2D:
   m_ObjectHideFlags: 0
